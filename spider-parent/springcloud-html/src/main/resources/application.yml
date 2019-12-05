@@ -1,0 +1,14 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: html
+#Eureka实例名，集群中根据这里相互识别
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+      
+      
+      
+      
