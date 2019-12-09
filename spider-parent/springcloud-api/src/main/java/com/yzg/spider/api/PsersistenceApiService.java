@@ -1,10 +1,10 @@
-package com.yzg.api;
+package com.yzg.spider.api;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@FeignClient("html")
-public interface HtmlApiService {
+@FeignClient("persistence")
+public interface PsersistenceApiService {
 
 	@RequestMapping("/")
 	public String test();
